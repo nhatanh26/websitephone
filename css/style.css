@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid #000; /* Black border as shown in Image 1 */
+    width: 90%; /* Matches the width in your original code */
+    height: 700px; /* Matches the height in your original code */
+    margin: 0 auto; /* Center the wrapper */
+}
+
+.header {
+    background-image: url('../images/banner.jpg'); /* Use the banner image from Image 1 */
+    background-repeat: no-repeat;
+    background-size: 100% 180px; /* Match the size from Image 1 */
+    border: 1px solid #ff80ff; /* Pink border as shown in Image 1 */
+    width: 100%; /* Full width of the wrapper */
+    height: 180px;
+}
+
+.menu {
+    border: 1px solid #1aff8c; /* Light green border as shown in Image 1 */
+    height: 50px;
+    width: 100%; /* Full width of the wrapper */
+    background: #00e6ac; /* Teal background */
+}
+
+ul.list_menu {
+    padding: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 50px; /* Center the menu items vertically */
+    text-align: center;
+}
+
+ul.list_menu li {
+    display: inline-block; /* Use inline-block for better centering */
+    margin: 0 15px; /* Adjust spacing between menu items */
+    padding: 0;
+}
+
+ul.list_menu li:hover {
+    background: burlywood;
+}
+
+ul.list_menu li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 16px;
+}
+
+#main {
+    border: 1px solid #00ff80; /* Bright green border as shown in Image 1 */
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Clearfix for floated children */
+}
+
+.sidebar {
+    border: 1px solid #000066; /* Dark blue border as shown in Image 1 */
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left; 
+}
+
+ul.list_sidebar {
+    padding: 0;
+    list-style: none;
+    list-style: none;
+    line-height: 25px;
+}
+
+ul.list_sidebar li {
+    margin: 10px 0; /* Adjust spacing between sidebar items */
+    padding: 5px;
+    background: #fff;
+}
+
+ul.list_sidebar li:hover {
+    background: aquamarine;
+}
+
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff; /* Blue text color */
+    font-size: 16px;
+    display: block;
+}
+
+.maincontent {
+    border: 1px solid #ff0000; /* Red border as shown in Image 1 */
+    height: auto;
+    width: 78%; /* Adjust width to fit beside the sidebar (100% - 20% - margins) */
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left; /* Float the main content to the right of the sidebar */
+}
+
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    list-style: none;
+    line-height: 27px;
+}
+
+ul.product_list li {
+    width: 17%;
+    border: 1px dashed #000;
+    margin: 5px;
+    float: left;
+    background: aquamarine;
+    height: 325px;
+}
+
+ul.product_list li img{
+    width: 100%;
+}
+.footer {
+    border: 1px solid #ff1a8c; /* Pink border as shown in Image 1 */
+    width: 100%;
+    height: 150px;
+    background: #00cc99; /* Teal background */
+    clear: both; /* Clear the floats from the main section */
+    text-align: center;
+    line-height: 150px; /* Center the text vertically */
+}
+
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.price_product{
+    text-align: center;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0;
+    color: #fff; /* White text color */
+}
+
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+}
